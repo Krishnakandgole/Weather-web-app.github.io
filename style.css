@@ -21,6 +21,9 @@ body{
     text-align: center;
 }
 .first-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     gap: 1rem;
 }
