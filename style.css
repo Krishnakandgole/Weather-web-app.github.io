@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+body{
+    background: #030027;
+}
+.container{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: white;
+    margin: 2rem auto;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+.first-box{
+    width: 100%;
+    gap: 1rem;
+}
+#input{
+    width: 250px;
+    padding: 0.5rem;
+    background: transparent;
+    border: 1px solid lightgray;
+    color: white;
+    outline: none;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#btn{
+    width: 40px;
+    padding: 0.5rem;
+    background: transparent;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#btn img{
+    width: 100%;
+}
+.img-box img{
+    margin-top: 1rem;
+    width: 220px;
+}
+#tem{
+    font-size: 2rem;
+}
+.city-name{
+    font-size: 2rem;
+}
+.hu-img, .win-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.hu-img img , .win-img img{
+    width: 30px;
+}
+.third-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+.s-container{
+    display: none;
+}
